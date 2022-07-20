@@ -6,7 +6,7 @@ body{
     margin: 0;
     padding: 0;
 }
-/* Header Styles */
+/* Header Styles start */
 .banner-container{
     display: flex;
     justify-content: space-around;
@@ -55,4 +55,35 @@ body{
 }
 .fa-angle-right{
     margin-left: 10px;
+}
+/* Blogs & description */
+.box{
+    width: 200px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1 , 1fr;
+    margin-top: 50px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #161616;
+}
+.box-button{
+    background-color:beige;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.box-button a{
+    text-decoration: none;
+    color: #161616
+}
+#blogs{
+    background-color: #DD0000;
+    color: white;
+}
+#blogs a{
+    color: white;
 }
