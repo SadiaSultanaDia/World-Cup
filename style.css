@@ -109,6 +109,7 @@ body{
     margin-right: 0;
     padding: 10px;
 }
+/* Footer */
 footer{
     background: black;
     height: 350px;
@@ -123,4 +124,35 @@ footer{
 #hr-tag{
     margin-left: 100px;
     margin-right: 100px;
+}
+nav ul{
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+nav li{
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+    color:aqua;
+}
+.social-media-icons{
+    margin-top: 50px;
+    text-align: center;
+}
+.fa-facebook-square{
+    margin: 5px;
+    color: blue;
+    font-size: 40px;
+}
+.fa-linkedin{
+    margin: 5px;
+    color: rgb(137, 137, 224);
+    font-size: 40px;
+}
+.fa-instagram{
+    margin: 5px;
+    background-image: linear-gradient(pink , purple , tomato , orange);
+    font-size: 40px;
 }
