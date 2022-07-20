@@ -60,6 +60,7 @@ body{
 .container{
     display: flex;
 }
+/* Left box */
 .box{
     width: 500px;
     height: 300px;
@@ -90,6 +91,7 @@ body{
 #btn-color a{
     color: white;
 }
+/* Right Box */
 .blog-container{
     width: calc(100% - 200px);
     margin-top: 50px;
