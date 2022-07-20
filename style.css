@@ -109,6 +109,23 @@ body{
     margin-right: 0;
     padding: 10px;
 }
+.view-all{
+    visibility: hidden;
+    margin-top: 20px;
+    text-align: center;
+}
+#button-view{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 20px;
+    border: 0;
+    border-radius: 20px;
+    background-image: linear-gradient(tomato , orange);
+}
+.view-all a{
+    text-decoration: none;
+    color: black;
+}
 /* Footer */
 footer{
     background: black;
