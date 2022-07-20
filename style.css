@@ -83,11 +83,11 @@ body{
     text-decoration: none;
     color: #161616
 }
-#button-color{
+#btn-color{
     background-color: #DD0000;
     color: white;
 }
-#button-color a{
+#btn-color a{
     color: white;
 }
 .blog-container{
