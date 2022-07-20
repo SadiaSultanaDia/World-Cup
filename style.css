@@ -53,6 +53,7 @@ body{
     text-decoration: none;
     color: beige;
 }
+/* icons */
 .fa-angle-right{
     margin-left: 10px;
 }
@@ -63,9 +64,9 @@ body{
 /* Left box */
 .box{
     width: 500px;
-    height: 300px;
-    display: grid;
-    grid-template-columns: repeat(1 , 1fr);
+    height: 200px;
+    display: flex;
+    flex-direction: column;
     margin-top: 50px;
     border: 1px solid white;
     border-radius: 10px;
