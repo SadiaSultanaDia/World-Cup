@@ -109,3 +109,18 @@ body{
     margin-right: 0;
     padding: 10px;
 }
+footer{
+    background: black;
+    height: 350px;
+}
+.footer-title{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 50px;
+    color: #E8E8E8;
+    text-align: center;
+}
+#hr-tag{
+    margin-left: 100px;
+    margin-right: 100px;
+}
