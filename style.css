@@ -110,7 +110,7 @@ body{
     padding: 10px;
 } 
 .view-all{
-    visibility: hidden;
+    visibility: visible;
     margin-top: 20px;
     text-align: center;
 }
@@ -172,4 +172,25 @@ nav li a{
     margin: 5px;
     background-image: linear-gradient(pink , purple , tomato , orange);
     font-size: 40px;
+}
+/* Media Queries */
+/* tablet devices */
+@media only screen and (min-width: 689px;) and (max-width:991px){
+    .banner-container{
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+    }
+    .banner-description{
+        width: 20%;
+    }
+    .box{
+        border: 0;
+    }
+    .blog-container{
+        width: 100%;
+        grid-template-columns: repeat(2 , 1fr);
+        align-items: center;
+
+    }
 }
