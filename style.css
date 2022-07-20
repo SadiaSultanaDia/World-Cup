@@ -100,10 +100,6 @@ body{
     grid-template-columns: repeat(3 , 1fr);
     grid-gap: 20px;
 }
-.blog-banner{
-    margin: 0;
-    padding: 0;
-}
 .blog{
     background-color: #E8E8E8;
     width: 350px;
